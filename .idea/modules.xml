@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LogAccesser/LogAccesser.iml" filepath="$PROJECT_DIR$/LogAccesser/LogAccesser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LogAccesserProject.iml" filepath="$PROJECT_DIR$/LogAccesserProject.iml" />
+    </modules>
+  </component>
+</project>
+
