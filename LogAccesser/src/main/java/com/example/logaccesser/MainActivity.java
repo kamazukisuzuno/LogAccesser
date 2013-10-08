@@ -1,8 +1,12 @@
 package com.example.logaccesser;
 
+import android.content.ComponentName;
+import android.content.Context;
 import android.content.Intent;
+import android.content.ServiceConnection;
 import android.os.Bundle;
 import android.app.Activity;
+import android.os.IBinder;
 import android.util.Log;
 import android.view.Menu;
 import android.view.View;
@@ -55,11 +59,29 @@ public class MainActivity extends Activity {
         ExecuteAsRootBase.canRunRootCommands();
     }
 
+    @Override
+    public void onStop(){
+        super.onStop();
+        unbindService();
+    }
+
+    @Override
+    public void onResume(){
+        super.onResume();
+        clearLog();
+    }
+
 
     public void broadcast(View v){
+        if(recordService!=null){
+            for(String s:recordService.getIntentList()){
+                addLog(s);
+            }
+        }
+        /*
         Log.v("MainActivity","broadcast");
         Intent intent = new Intent("com.readboy.startActivity");
-        sendBroadcast(intent);
+        sendBroadcast(intent);*/
     }
 
     @Override
@@ -90,6 +112,13 @@ public class MainActivity extends Activity {
         map.put("TEXT",log);
 
         list.add(map);
+
+        sa.notifyDataSetChanged();
+    }
+
+    public void clearLog(){
+
+        list.clear();
 
         sa.notifyDataSetChanged();
     }
@@ -136,7 +165,25 @@ public class MainActivity extends Activity {
     }
 
     private void bindService(){
-
+        Intent intent = new Intent(this,RecordService.class);
+        bindService(intent,sc, Context.BIND_AUTO_CREATE);
     }
-    
+
+    private void unbindService(){
+        unbindService(sc);
+    }
+
+    RecordService recordService;
+
+    private ServiceConnection sc = new ServiceConnection() {
+        @Override
+        public void onServiceConnected(ComponentName name, IBinder service) {
+            recordService = ((RecordService.InternalBinder)service).getService();
+        }
+
+        @Override
+        public void onServiceDisconnected(ComponentName name) {
+            recordService = null;
+        }
+    };
 }
