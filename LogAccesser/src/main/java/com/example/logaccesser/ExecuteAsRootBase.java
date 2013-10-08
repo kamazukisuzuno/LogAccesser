@@ -125,5 +125,6 @@ public abstract class ExecuteAsRootBase
 
         return retval;
     }
+
     protected abstract ArrayList<String> getCommandsToExecute();
 }

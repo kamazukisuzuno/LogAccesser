@@ -2,9 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.logaccesser"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="1.0">
 
     <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name = "android.permission.RECEIVE_SMS" />
+    <uses-permission android:name = "android.permission.SEND_SMS" />
+
 
     <uses-sdk
         android:minSdkVersion="14"
@@ -15,6 +18,7 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+
         <activity
             android:name="com.example.logaccesser.MainActivity"
             android:label="@string/app_name" >
@@ -24,6 +28,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!--<receiver
+            android:name="com.example.logaccesser.OnActivityStartBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="com.readboy.startActivity"> </action>
+            </intent-filter>
+        </receiver>-->
+
     </application>
 
 </manifest>

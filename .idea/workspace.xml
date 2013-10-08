@@ -12,8 +12,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3760a868-3334-4a97-946f-52e98d619cb4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LogAccesser/src/main/java/com/example/logaccesser/AwakeReceiver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LogAccesser/src/main/java/com/example/logaccesser/OnActivityStartBroadcastReceiver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LogAccesser/src/main/java/com/example/logaccesser/RecordService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LogAccesser/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/LogAccesser/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LogAccesser/src/main/java/com/example/logaccesser/ExecuteAsRootBase.java" afterPath="$PROJECT_DIR$/LogAccesser/src/main/java/com/example/logaccesser/ExecuteAsRootBase.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LogAccesser/LogAccesser.iml" afterPath="$PROJECT_DIR$/LogAccesser/LogAccesser.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LogAccesser/src/main/java/com/example/logaccesser/MainActivity.java" afterPath="$PROJECT_DIR$/LogAccesser/src/main/java/com/example/logaccesser/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LogAccesser/build/source/r/debug/com/example/logaccesser/R.java" afterPath="$PROJECT_DIR$/LogAccesser/build/source/r/debug/com/example/logaccesser/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LogAccesser/build/res/all/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/LogAccesser/build/res/all/debug/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LogAccesser/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/LogAccesser/src/main/res/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LogAccesser.iws" />
@@ -81,16 +91,18 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LogAccesser/src/main/java/com/example/logaccesser/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="8" selection-start="2383" selection-end="2383" vertical-scroll-proportion="0.0" vertical-offset="1560" max-vertical-offset="2025">
-              <folding />
+            <state line="50" column="22" selection-start="1266" selection-end="1266" vertical-scroll-proportion="0.0" vertical-offset="269" max-vertical-offset="2130">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExecuteAsRootBase.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LogAccesser/src/main/java/com/example/logaccesser/ExecuteAsRootBase.java">
+      <file leaf-file-name="OnActivityStartBroadcastReceiver.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LogAccesser/src/main/java/com/example/logaccesser/OnActivityStartBroadcastReceiver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="26" selection-start="335" selection-end="335" vertical-scroll-proportion="0.375" vertical-offset="0" max-vertical-offset="2010">
+            <state line="27" column="36" selection-start="721" selection-end="721" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,21 +113,43 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LogAccesser/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="67" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="525">
+            <state line="32" column="45" selection-start="1110" selection-end="1110" vertical-scroll-proportion="0.0" vertical-offset="88" max-vertical-offset="705">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list_text.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LogAccesser/src/main/res/layout/list_text.xml">
+      <file leaf-file-name="AwakeReceiver.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LogAccesser/src/main/java/com/example/logaccesser/AwakeReceiver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="25" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="210">
-              <folding />
+            <state line="17" column="41" selection-start="509" selection-end="509" vertical-scroll-proportion="0.44658494" vertical-offset="0" max-vertical-offset="571">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
-          <provider editor-type-id="android-designer">
-            <state />
+        </entry>
+      </file>
+      <file leaf-file-name="ExecuteAsRootBase.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LogAccesser/src/main/java/com/example/logaccesser/ExecuteAsRootBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="127" column="0" selection-start="3769" selection-end="3769" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2025">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RecordService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LogAccesser/src/main/java/com/example/logaccesser/RecordService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="60" selection-start="675" selection-end="675" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="900">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#412#420#0" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -148,13 +182,18 @@
       </file>
       <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LogAccesser/src/main/res/layout/activity_main.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="641" selection-end="641" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="330">
-              <folding />
-            </state>
-          </provider>
           <provider editor-type-id="android-designer">
             <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="0" selection-start="1262" selection-end="1262" vertical-scroll-proportion="-16.5" vertical-offset="0" max-vertical-offset="645">
+              <folding>
+                <element signature="e#231#266#0" expanded="true" />
+                <element signature="e#292#327#0" expanded="true" />
+                <element signature="e#351#384#0" expanded="true" />
+                <element signature="e#411#444#0" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -530,11 +569,14 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/LogAccesser/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/LogAccesser/src/main/res/layout/list_text.xml" />
-        <option value="$PROJECT_DIR$/LogAccesser/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/LogAccesser/src/main/java/com/example/logaccesser/MainActivity.java" />
         <option value="$PROJECT_DIR$/LogAccesser/src/main/java/com/example/logaccesser/ExecuteAsRootBase.java" />
+        <option value="$PROJECT_DIR$/LogAccesser/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/LogAccesser/src/main/java/com/example/logaccesser/AwakeReceiver.java" />
+        <option value="$PROJECT_DIR$/LogAccesser/src/main/java/com/example/logaccesser/RecordService.java" />
+        <option value="$PROJECT_DIR$/LogAccesser/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/LogAccesser/src/main/java/com/example/logaccesser/OnActivityStartBroadcastReceiver.java" />
+        <option value="$PROJECT_DIR$/LogAccesser/src/main/java/com/example/logaccesser/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -542,7 +584,7 @@
     <option name="x" value="1431" />
     <option name="y" value="19" />
     <option name="width" value="1920" />
-    <option name="height" value="1053" />
+    <option name="height" value="1069" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -577,6 +619,10 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="LogAccesser" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -717,7 +763,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -732,8 +778,10 @@
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="recentsLimit" value="5" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="4df1950a26e55f71" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="2013G50RB" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="test" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
   <component name="RunManager" selected="Android Application.LogAccesser">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -763,19 +811,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -801,6 +836,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -912,7 +960,11 @@
       <created>1381138637865</created>
       <updated>1381138637865</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="aaa">
+      <created>1381138661293</created>
+      <updated>1381138661293</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -936,33 +988,33 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1431" y="19" width="1920" height="1053" extended-state="6" />
+    <frame x="1431" y="19" width="1920" height="1069" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32993197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32918918" sideWeight="0.6703786" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33777776" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.328125" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25614974" sideWeight="0.28444445" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850778" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25567567" sideWeight="0.670068" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25567567" sideWeight="0.671875" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.67" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -981,37 +1033,14 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LogAccesser/src/main/java/com/example/logaccesser/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="8" selection-start="2383" selection-end="2383" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2025">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LogAccesser/src/main/java/com/example/logaccesser/ExecuteAsRootBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="32" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2010">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LogAccesser/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="67" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="525">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LogAccesser/src/main/res/layout/list_text.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="25" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="210">
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
@@ -1036,13 +1065,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LogAccesser/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="641" selection-end="641" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="330">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="641" selection-end="641" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="330">
+          <folding>
+            <element signature="e#231#266#0" expanded="true" />
+            <element signature="e#292#327#0" expanded="true" />
+            <element signature="e#351#384#0" expanded="true" />
+            <element signature="e#411#444#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LogAccesser/build.gradle">
@@ -1066,49 +1100,194 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LogAccesser/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="67" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LogAccesser/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="641" selection-end="641" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="330">
-          <folding />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/LogAccesser/src/main/res/layout/list_text.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LogAccesser/src/main/res/layout/list_text.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="25" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="210">
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LogAccesser/src/main/res/layout/activity_main.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LogAccesser/src/main/java/com/example/logaccesser/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="8" selection-start="2383" selection-end="2383" vertical-scroll-proportion="0.0" vertical-offset="1130" max-vertical-offset="1830">
+        <state line="33" column="0" selection-start="1262" selection-end="1262" vertical-scroll-proportion="-16.5" vertical-offset="0" max-vertical-offset="645">
+          <folding>
+            <element signature="e#231#266#0" expanded="true" />
+            <element signature="e#292#327#0" expanded="true" />
+            <element signature="e#351#384#0" expanded="true" />
+            <element signature="e#411#444#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LogAccesser/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="45" selection-start="1110" selection-end="1110" vertical-scroll-proportion="0.0" vertical-offset="88" max-vertical-offset="705">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LogAccesser/src/main/java/com/example/logaccesser/ExecuteAsRootBase.java">
+    <entry file="file://$PROJECT_DIR$/LogAccesser/src/main/java/com/example/logaccesser/OnActivityStartBroadcastReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="26" selection-start="335" selection-end="335" vertical-scroll-proportion="0.375" vertical-offset="0" max-vertical-offset="2010">
+        <state line="27" column="36" selection-start="721" selection-end="721" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LogAccesser/src/main/java/com/example/logaccesser/RecordService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="60" selection-start="675" selection-end="675" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="900">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#412#420#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LogAccesser/src/main/java/com/example/logaccesser/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="22" selection-start="1266" selection-end="1266" vertical-scroll-proportion="0.0" vertical-offset="269" max-vertical-offset="2130">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LogAccesser/src/main/java/com/example/logaccesser/ExecuteAsRootBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="127" column="0" selection-start="3769" selection-end="3769" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2025">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LogAccesser/src/main/java/com/example/logaccesser/AwakeReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="41" selection-start="509" selection-end="509" vertical-scroll-proportion="0.44658494" vertical-offset="0" max-vertical-offset="571">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Android</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>LibraryProject</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>Android API 18 Platform</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>LogAccesser</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>support-v4-13.0.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 

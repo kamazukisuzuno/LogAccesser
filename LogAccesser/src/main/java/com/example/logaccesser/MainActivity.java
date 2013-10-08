@@ -1,9 +1,11 @@
 package com.example.logaccesser;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.app.Activity;
 import android.util.Log;
 import android.view.Menu;
+import android.view.View;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
@@ -44,14 +46,21 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         init();
-        getRoot();
-        startLogging();
+        //getRoot();
+        //startLogging();
+        bindService();
     }
 
     private void getRoot() {
-
+        ExecuteAsRootBase.canRunRootCommands();
     }
 
+
+    public void broadcast(View v){
+        Log.v("MainActivity","broadcast");
+        Intent intent = new Intent("com.readboy.startActivity");
+        sendBroadcast(intent);
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -102,7 +111,7 @@ public class MainActivity extends Activity {
 
     public void readLog() throws IOException {
         Runtime runtime = Runtime.getRuntime();
-        runtime.exec(GET_ROOT.toArray(new String[GET_ROOT.size()]));
+        //runtime.exec(GET_ROOT.toArray(new String[GET_ROOT.size()]));
         Process process = runtime.exec(READ_LOG.toArray(new String[READ_LOG.size()]));
         BufferedReader br = new BufferedReader(new InputStreamReader(process.getInputStream()));
 
@@ -124,6 +133,10 @@ public class MainActivity extends Activity {
         }
 
         Log.v("main","read log exit");
+    }
+
+    private void bindService(){
+
     }
     
 }
